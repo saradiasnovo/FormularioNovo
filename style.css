@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Raleway:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+        background-color: #ccbbff;
+        font-size: 100%;
+}
+
+.cabecalho {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo {
+    font-family: 'Passion One';
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+#subtitulo {
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 0.4px solid #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.conteudo {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+.formulario-main {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway';
+    color: #ffffff;
+    font-size: 30px; 
+}
+
+.campo {
+    padding: 2px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    font-size: 25px;
+}
+
+.campo input[type="text"],.campo input[type="email"], .campo select {
+    padding: 8px;
+    border: 1px solid #59429d; 
+    width: 250px;   
+}
+
+.sexo {
+    font-size: 25px;
+}
+
+input, select, button {
+    border-radius: 8px;
+    align-items: stretch;
+}
+
+.imagem-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.botao {
+    margin-top: 25px;
+    font-family: 'Passion One';
+    font-size: 45px;
+    color: #f03b1b;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 70px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 21px;
+    border: none;
+    }
+
+.botao:hover {
+    background-color:#f8e0809d;
+    color: #59429d;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.texto-rodape {
+    padding: 20px;
+    font-family: 'Raleway';
+    font-size: 15px;
+    color: #000000;
+}

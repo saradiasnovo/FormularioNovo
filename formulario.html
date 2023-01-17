@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <title>Cadastro</title>
+</head>
+
+<body>    
+
+    <header>
+        <div class="cabecalho">
+            <h1 id="titulo">Cadastro da(o) Dorameira(o)</h1>
+            <p id="subtitulo">Complete com suas informações:</p>
+            <br>
+        </div>
+    </header>
+
+    <main class="conteudo">
+    
+    <section class="formulario-main">
+    <form>
+        <div class="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Escreva seu nome completo" required>
+            </div>
+
+            <div class="campo">
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" id="cpf" size="11" maxlength="11" placeholder="000.000.000-00" required>
+            </div>
+      
+
+        <div class="campo">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="email@example.com" required>
+        </div>
+
+        <div class="campo">
+            <label for="estado">Estado:</label>
+            <select id="estado" required>
+                <option selected disabled value="">Selecione</option>
+                <option>Distrito Federal</option>
+                <option>Acre</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+                <option>Amazonas</option>
+                <option>Bahia</option>
+                <option>Ceará</option>
+                <option>Espírito Santo</option>
+                <option>Goiás</option>
+                <option>Maranhão</option>
+                <option>Mato Grosso</option>
+                <option>Mato Grosso do Sul</option>
+                <option>Minas Gerais</option>
+                <option>Pará</option>
+                <option>Paraíba</option>
+                <option>Paraná</option>
+                <option>Pernambuco</option>
+                <option>Piauí</option>
+                <option>Rio de Janeiro</option>
+                <option>Rio Grande do Norte</option>
+                <option>Rio Grande do Sul</option>
+                <option>Rondônia</option>
+                <option>Roraima</option>
+                <option>Santa Catarina</option>
+                <option>São Paulo</option>
+                <option>Sergipe</option>
+                <option>Tocantins</option>
+
+            </select>
+        </div>
+
+        <div class="sexo">
+            <label>Sexo:</label>
+            <input type="radio" name="sexo" value="fem" checked required> F
+            <input type="radio" name="sexo" value="masc" required> M
+        </div>
+        
+        <button class="botao" type="submit">Enviar</button>
+    </form>
+</section>
+
+<section class="imagem-main">
+    <img src="maozinha.png" alt="maozinha"> 
+</section> 
+
+</main>
+
+    <footer class="rodape">
+    <img class="imagem-rodape" src="" alt="">
+    <a class="texto-rodape"><strong>Desenvolvido por Sara Dias Novo - 2023</strong></a>
+    </footer>
+
+</body>
+</html>
